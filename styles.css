@@ -1,0 +1,11 @@
+.display{
+    display: grid;
+    grid-template-columns: 20fr 15fr 2fr 2fr 1fr;
+    grid-auto-flow: column;
+}
+
+.display div{
+    font-size: 20px;
+    font-weight: bold;
+}
+
